@@ -1,0 +1,39 @@
+#chaofan{
+    width: 100%;
+    height: 5310px;
+    background-color: aqua;
+}
+#chaofan .head{
+width: 100%;
+height: 86px;
+overflow: hidden;
+background-color: white;
+}
+.head .logo-left{
+      width: 145px;
+      height: 50px;
+      margin-left: 100px;
+      border: 1px solid red;
+      margin-top: 18px;
+}
+.logo-left .logo{
+      width: 38px;
+      height: 50px;
+      background-image: url(../images/1.png);
+      border: 1px solid red;
+float: left;
+}
+.head .content-left{
+    width: 100px;
+    height: 34px;
+    margin-left: 6px;
+    float: left;
+}
+.head .content-left h2{
+    font-size: 25px;
+    line-height: 25px;
+}
+.head .content-left p{
+    font-size: 4px;
+    margin-top: 4px;
+}

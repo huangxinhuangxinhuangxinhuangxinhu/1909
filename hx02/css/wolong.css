@@ -1,0 +1,59 @@
+*{margin: 0;padding: 0;}
+#wolong{
+    width: 1000px;
+    height: 1500px;
+    background: rgb(248, 246, 246);
+    margin: auto;
+}
+
+#wolong .header{
+    width: 1000px;
+    height:100px;
+    background:url(../images/3.jpg);
+}
+ ul li{
+     width: 125px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    
+}
+#wolong .nav{
+    width: 1000px;
+    height: 60px;
+    background: #292929;
+}
+#wolong .banner{
+    width: 1000px;
+    height: 461px;
+    background:url(../images/4.jpg);
+
+}
+#wolong .main1{
+    width: 1000px;
+    height: 269px;
+    background:url(../images/5.jpg);
+
+}
+#wolong .main2{
+    width: 1000px;
+    height: 461px;
+    background:url(../images/67.png);
+
+}
+#wolong .main3{
+    width: 1000px;
+    height: 290px;
+    background:url(../images/8.png);
+
+}
+#wolong .footer{
+    width: 1000px;
+    height: 80px;
+    background:url(../images/10.jpg);
+
+}
+
+

@@ -1,0 +1,34 @@
+
+#box{ width: 1000px;
+    height: 600x;
+    border: 1px solid red;
+
+}
+.box1{
+    width: 1000px;
+    height:50px ;
+ background-color: antiquewhite
+}
+.box2{
+    width: 1000px;
+    height:150px ;
+    background-color: rgb(250, 215, 242)
+}
+.box3{
+    width: 1000px;
+    height:200px ;
+    background-color: antiquewhite
+}
+.box4{
+    width: 1000px;
+    height:250px ;
+    background-color: rgb(215, 250, 247)
+}
+.box5{
+    width: 1000px;
+    height:100px ;
+    background-color: rgb(243, 250, 215)
+}
+
+
+

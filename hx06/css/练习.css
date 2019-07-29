@@ -1,0 +1,46 @@
+.box{
+    width: 1000px;
+    height: 474px;
+    border: 1px solid rgb(80, 72, 72);
+}
+dl{
+    width: 199px;
+    height: 236px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #b8adad;
+    float: left;
+
+}
+dl dt{
+    height: 160px;
+    text-align: center;
+    border-bottom: 1px solid bisque;
+}
+dl dt img{
+    vertical-align: middle;
+}
+dl dt span {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    width: 0px;
+}
+dl dd{
+    width: 100px;
+    height: 77px;
+    text-align: center;
+}
+dl dd h2{
+    font-size: 12px;
+    line-height: 12px;
+    
+    margin-top: 10px;
+}
+dl dd p{
+    font-size: 11px;
+    line-height: 11px;
+    color: red;
+    
+    margin-top: 25px;
+
+}

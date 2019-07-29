@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    .nav1 {
+        position: relative;
+        width: 400px;
+        height: 40px;
+        background: black;
+        margin: 100px auto;
+
+    }
+
+    .nav1 li {
+        width: 99px;
+        height: 40px;
+        border-right: 1px solid red;
+        float: left;
+        line-height: 40px;
+    }
+
+    .nav1 li a {
+        display: block;
+        font-size: 12px;
+        text-align: center;
+        color: red;
+    }
+
+    .nav1 .nav2 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        display: none;
+        background-color: orange;
+
+
+    }
+
+    .nav1 .nav2 li {
+        border-right: none;
+    }
+
+    .nav1 li:hover .nav2 {
+        display: block;
+    }
+</style>
+
+<body>
+    <ul class="nav1">
+        <li>
+            <a href="">导航111</a>
+            <ul class="nav2">
+                <li><a href="">导航111</a></li>
+                <li><a href="">导航111</a></li>
+                <li><a href="">导航111</a></li>
+                <li><a href="">导航111</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">导航222</a>
+            <ul class="nav2">
+                <li><a href="">导航222</a></li>
+                <li><a href="">导航222</a></li>
+                <li><a href="">导航222</a></li>
+                <li><a href="">导航222</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">导航333</a>
+            <ul class="nav2">
+                <li><a href="">导航333</a></li>
+                <li><a href="">导航333</a></li>
+                <li><a href="">导航333</a></li>
+                <li><a href="">导航333</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">导航444</a>
+            <ul class="nav2">
+                <li><a href="">导航444</a></li>
+                <li><a href="">导航444</a></li>
+                <li><a href="">导航444</a></li>
+                <li><a href="">导航444</a></li>
+
+            </ul>
+        </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

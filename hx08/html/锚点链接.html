@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #box {
+            width: 400px;
+            height: 400px;
+            border: 1px solid red;
+            margin: 100px auto;
+        }
+
+        #box .left {
+            width: 199px;
+            height: 100%;
+            border-right: 1px solid red;
+            float: left;
+            background-color: aqua;
+        }
+
+        #box .right {
+            width: 200px;
+            height: 100%;
+            float: right;
+            overflow: hidden;
+        }
+
+        .right div {
+            height: 100%;
+        }
+
+        .left a {
+            display: block;
+            height: 40px;
+            border-bottom: 2px solid red;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div class="left">
+            <a href="#yijieduan">一阶段</a>
+            <a href="#erjieduan">二阶段</a>
+            <a href="#sanjieduan">三阶段</a>
+            <a href="#sijieduan">四阶段</a>
+        </div>
+        <div class="right">
+            <div class="yijieduan">
+                <p>sdassdas</p>
+                <p>sdasda</p>
+                <p>xczxcz</p>
+                <p>sdasac</p>
+            </div>
+            <div class="erjieduan">
+                <p>sdassdas</p>
+                <p>222222</p>
+                <p>xczxcz</p>
+                <p>sdasac</p>
+            </div>
+            <div class="sanjieduan">
+                <p>sdassdas</p>
+                <p>222233</p>
+                <p>xczxcz</p>
+                <p>sdasac</p>
+            </div>
+            <div class="sijieduan">
+                <p>sdassdas</p>
+                <p>sdasda</p>
+                <p>xczxcz</p>
+                <p>sdasac</p>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

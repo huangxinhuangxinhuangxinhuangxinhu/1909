@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    *{margin: 0;padding: 0;}
+    .box ul li {
+        list-style: none;
+    }
+    .box ul li a{
+        text-decoration: none;
+        /* 清除a标签的默认值，下划线 */
+        font-size: 15px;
+        /* 字体大小 */
+        color: white;
+        display: block;  
+         /* 因为A标签不是块级元素，设置A标签为块级元素 */
+        text-align: center; 
+        /*设置文本居中  */
+        padding:0px 17px;
+    }
+     .box ul li:hover{
+         background: orange;
+         /* 鼠标移动到li上，改变背景颜色 */
+     }
+    .box{
+        width: 1000px;
+        height: 62px;
+        background: #000;
+    }
+    .box ul{
+        float: right;
+    }
+    .box ul li{
+        height:62px;
+        line-height: 62px; 
+        /* 设置文本垂直居中 */
+        float: left;
+    }
+    .box img{
+        float: left;
+    }
+    
+    
+    </style>
+<thead>
+<body>
+    <div class="box"> 
+  <img src="../images/qf_logo.jpg" alt="">
+  <ul>
+      <li ><a href="">首页</a></li>
+      <li><a href="">课程</a></li>
+      <li><a href="">走进千锋</a></li>
+      <li><a href="">千锋教育</a></li>
+      <li><a href="">双选会</a></li>
+      <li><a href="">好程序员</a></li>
+     
+  </ul>
+
+    </div>
+</body>
+</html>

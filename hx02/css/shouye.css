@@ -1,0 +1,62 @@
+*{margin: 0;padding: 0}
+#shouye{
+    width: 1326px;
+    height: 5000px;
+    background: rgb(0, 68, 255);
+}
+#shouye .header{
+    width: 1326px;
+    height: 83px;
+    background:url(../images/01.png);
+
+}
+#shouye .banner{
+    width: 1326px;
+    height: 700px;
+    background:url(../images/03.png);
+}
+#shouye .main1{
+    width: 1326px;
+    height: 220;
+    background:url(../images/04.png);
+}
+#shouye .main2{
+    width: 1326px;
+    height: 580px;
+    background:url(../images/05.png);
+}
+#shouye .main3{
+    width: 1326px;
+    height:710px ;
+    background:url(../images/06.png);
+}
+#shouye .main4{
+    width: 1326px;
+    height: 430px;
+    background:url(../images/07.png);
+}
+#shouye .main5{
+    width: 1326px;
+    height:595px;
+    background:url(../images/08.png);
+}
+#shouye .main6{
+    width: 1326px;
+    height: 536px;
+    background:url(../images/09.png);
+}
+#shouye .main7{
+    width: 1326px;
+    height: 707px;
+    background:url(../images/10.png);
+}
+#shouye .main8{
+    width: 1326px;
+    height: 514px;
+    background:url(../images/11.png);
+}
+#shouye .footer{
+    width: 1326px;
+    height: 257px;
+    background:url(../images/12.png);
+}
