@@ -1,0 +1,106 @@
+*{margin: 0;padding: 0;}
+ .content{
+    width: 524px;
+    height: 518px;
+    margin: 100px auto;
+    border: 1px solid red;
+}
+
+ .head{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin-top: 27px;
+    margin-left: 160px;
+    border-radius: 50% 50% 0 0/100% 100% 0 0;
+    position: relative;
+}
+ .content .span1{
+     width: 20px;
+     height: 20px;
+    position: absolute;
+    top:50px;
+    left:58px;
+    background-color: white;
+    border-radius: 50%;
+}
+.content .span2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:50px;
+    left:118px;
+    background-color: white;
+    border-radius: 50%;
+}
+.body{
+    width: 280px;
+    height: 230px;
+    margin-left: 122px;
+    margin-top: 10px;
+}
+.body .left{
+    width: 30px;
+    height: 180px;
+    background-color: green;
+    border-radius: 6px/6px;
+    float: left;
+}
+.body .right{
+    width: 30px;
+    height: 180px;
+    background-color: green;
+    border-radius: 6px/6px;
+    float: right;
+}
+.body .center{
+    width: 200px;
+    height: 230px;
+    border-radius: 0 0 15px 15px/0 0 15px 15px;
+    background-color: green;
+    float: left;
+    margin-left: 10px;
+}
+.footer{
+       width: 120px;
+       height: 80px;
+       margin-left: 202px;
+}
+.footer .left{
+      background-color: green;
+      width: 30px;
+      height: 80px;
+      float: left;
+      border-radius: 0 0 11px 11px;
+}
+.footer .right{
+    margin-left: 60px;
+    background-color: green;
+    width: 30px;
+    height: 80px;
+    float: left;
+    border-radius: 0 0 11px 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .box .head .sapn1{
+     display: block; 
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 8px/8px;
+    background-color: rgb(150, 44, 44);
+} */
